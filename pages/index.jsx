@@ -6,7 +6,7 @@ export default function Index() {
             <Head>
                 <title>Game</title>
             </Head>
-            <div>
+            <div className='flex flex-col p-2'>
                 <Box />
             </div>
         </>
