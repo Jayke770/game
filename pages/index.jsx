@@ -40,7 +40,7 @@ const handlers = {
         let tempArr = []
         const min = Math.ceil(1)
         const max = Math.floor(5)
-        for (let i = 1; i <= 3; i++) {
+        for (let i = 1; i <= 2; i++) {
             tempArr.push(Math.floor(Math.random() * (max - min + 1)) + min)
         }
         return tempArr
@@ -69,7 +69,7 @@ export default function Index() {
                         </div>
                     ))}
                 </div>
-                <div id='tray' className='grid grid-cols-2 gap-3 justify-center items-center w-full'>
+                <div id='tray' className='flex gap-3 justify-center items-center w-full'>
                     {tray.map((tray, i) => (
                         <Draggable
                             key={i}>
