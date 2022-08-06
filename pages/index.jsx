@@ -68,7 +68,7 @@ export default function Index() {
                         </div>
                     ))}
                 </div>
-                <div className='flex flex-row gap-5 justify-center items-center w-full md:w-[400px]'>
+                <div className='grid grid-cols-2 gap-2 justify-center items-center w-full md:w-[400px]'>
                     {tray.map((tray, i) => (
                         <div key={i} className='tray flex flex-col justify-center items-center gap-1 cursor-pointer hover:scale-125 transition-all group '>
                             {Object.values(handlers.defBlocks[tray]).map((trayRow, trayRowIndex) => (
