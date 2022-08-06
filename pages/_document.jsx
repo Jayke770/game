@@ -6,7 +6,7 @@ export default function Document() {
             <Head>
                 <meta name="theme-color" content="#27272a" />
             </Head>
-            <body className="overflow-hidden h-screen w-screen m-0 p-0 bg-zinc-800 flex justify-center items-center">
+            <body className="m-0 p-0 bg-zinc-800">
                 <Main />
                 <NextScript />
             </body>
